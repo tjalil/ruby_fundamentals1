@@ -12,7 +12,9 @@ one_to_hundred.each do |num|
 	end		
 end
 
-# assigning to the result of a tenrary statement
-# value = (num % 3 == 0 ? "Bit" : num.to_s)
+#alternate-solution with ternary
+one_to_hundred.each do |num|
+	num % 3 == 0 && num % 5 == 0 ? (puts "BitMaker") : (num % 3 == 0 ? (puts "Bit") : (num % 5 == 0 ? (puts "Maker") : (puts num)))
+end
 
 
