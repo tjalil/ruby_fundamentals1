@@ -13,10 +13,14 @@ puts "The amount you need to tip is $#{"%0.2f" % tip_amount}"
 =end
 
 #Adding a string and an integer
-string = "Houston, we have a problem. We've got a string and an "
-
 integer = 25.to_s
+
+string = "Houston, we have a problem. We've got a string and a "
 
 string_integer = string + integer
 
 puts string_integer
+
+puts "Problem solved! They add now. All system are go. Lift off..."
+
+
