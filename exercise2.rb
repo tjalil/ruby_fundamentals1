@@ -28,4 +28,19 @@ puts "Problem solved! They add now. All system are go. Lift off..."
 multiplied = 45628*7839
 puts "The multiplied amount is #{multiplied}"
 
+#Boolean + conditionals
+puts "We want to evaluate (true && false) || (false && true) || !(false && false)"
+puts "first bracket: false"
+puts "second bracket: false"
+puts "third bracket: true"
+puts "We now have false || false || true"
+puts "first OR: false"
+puts "We now have false || true"
+puts "final value : true"
+
+value = (true && false) || (false && true) || !(false && false)
+puts value
+
+puts "They match!"
+
 
