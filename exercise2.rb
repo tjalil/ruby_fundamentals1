@@ -10,7 +10,7 @@ tip_percent = tip_percent/100
 tip_amount = tip_percent * meal_cost
 
 puts "The amount you need to tip is $#{"%0.2f" % tip_amount}"
-=end
+
 
 #Adding a string and an integer
 integer = 25.to_s
@@ -22,5 +22,10 @@ string_integer = string + integer
 puts string_integer
 
 puts "Problem solved! They add now. All system are go. Lift off..."
+=end
+
+#String interpolation to output a multiplied amount
+multiplied = 45628*7839
+puts "The multiplied amount is #{multiplied}"
 
 
