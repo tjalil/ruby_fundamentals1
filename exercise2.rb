@@ -1,4 +1,3 @@
-=begin
 #How would you calculate a good top for a 55 dollar meal?
 meal_cost = 55.to_f
 puts "This meal costed $#{"%0.2f" % meal_cost}"
@@ -22,7 +21,7 @@ string_integer = string + integer
 puts string_integer
 
 puts "Problem solved! They add now. All system are go. Lift off..."
-=end
+
 
 #String interpolation to output a multiplied amount
 multiplied = 45628*7839
