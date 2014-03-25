@@ -1,6 +1,6 @@
 #How would you calculate a good top for a 55 dollar meal?
 meal_cost = 55.to_f
-puts "This meal costed $#{meal_cost}"
+puts "This meal costed $#{"%0.2f" % meal_cost}"
 
 puts "How much would you like to tip? Insert the percent amount e.g. 13"
 tip_percent = gets.chomp.to_f
